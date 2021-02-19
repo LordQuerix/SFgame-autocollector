@@ -94,6 +94,7 @@ def main():
         time.sleep(5)
         if x2 == "":
             print("-------------------")
+            now = datetime.now()
             print("Currect time: %s" % now)
             timetoclick = int(timeclickonepointH) - int(currect_timeH)
             print("Left time to click point 1: %s hours" % (timetoclick))
@@ -104,6 +105,7 @@ def main():
                 print("-------------------")
         if odp1 == "yes" and odp2 != "yes":
             print("-------------------")
+            now = datetime.now()
             print("Currect time: %s" % now)
             timetoclick = int(timeclickonepointH) - int(currect_timeH)
             print("Left time to click point 1: %s hours" % (timetoclick))
@@ -120,6 +122,7 @@ def main():
                 print("-------------------")
         if odp2 == "yes":
             print("-------------------")
+            now = datetime.now()
             print("Currect time: %s" % now)
             timetoclick = int(timeclickonepointH) - int(currect_timeH)
             print("Left time to click point 1: %s hours" % (timetoclick))
