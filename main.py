@@ -102,7 +102,7 @@ def main():
                 pyautogui.click(x1, y1)
                 print("clicked")
                 print("-------------------")
-        if odp1 == "yes" and odp2 == "":
+        if odp1 == "yes" and odp2 != "yes":
             print("-------------------")
             print("Currect time: %s" % now)
             timetoclick = int(timeclickonepointH) - int(currect_timeH)
